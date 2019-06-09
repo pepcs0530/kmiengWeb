@@ -1,0 +1,1855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/iconKMIeng.gif">
+  <title>KMI Engineering (Thailand) co.,ltd</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin-ext" rel="stylesheet">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <style>
+    /* Style the Image Used to Trigger the Modal */
+
+    #myImg {
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    #myImg:hover {
+      opacity: 0.7;
+    }
+
+    /* The Modal (background) */
+
+    .modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      padding-top: 100px;
+      /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%;
+      /* Full width */
+      height: 100%;
+      /* Full height */
+      overflow: auto;
+      /* Enable scroll if needed */
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(0, 0, 0, 0.9);
+      /* Black w/ opacity */
+    }
+
+    /* Modal Content (Image) */
+
+    .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+    }
+
+    /* Caption of Modal Image (Image Text) - Same Width as the Image */
+
+    #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: #ccc;
+      padding: 10px 0;
+      height: 150px;
+    }
+
+    /* Add Animation - Zoom in the Modal */
+
+    .modal-content,
+    #caption {
+      -webkit-animation-name: zoom;
+      -webkit-animation-duration: 0.6s;
+      animation-name: zoom;
+      animation-duration: 0.6s;
+    }
+
+    @-webkit-keyframes zoom {
+      from {
+        -webkit-transform: scale(0)
+      }
+      to {
+        -webkit-transform: scale(1)
+      }
+    }
+
+    @keyframes zoom {
+      from {
+        transform: scale(0)
+      }
+      to {
+        transform: scale(1)
+      }
+    }
+
+    /* The Close Button */
+
+    .close {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    /* 100% Image Width on Smaller Screens */
+
+    @media only screen and (max-width: 700px) {
+      .modal-content {
+        width: 100%;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>KMI Engineering (Thailand) co.,ltd</p>
+          </div>
+          <div class="col-sm-6">
+            <ul class="list-inline pull-right">
+              <li>
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-envelope-o"></i>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+66(0) 82-695-9165">
+                  <i class="fa fa-phone"></i> +66(0) 82-695-9165</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+          <span class="sr-only">Toggle Navigation</span>
+          <i class="fa fa-bars"></i>
+        </button>
+        <a href="index.html" class="navbar-brand">
+          <img src="img/iconKMIeng.gif" style="height: 85px; width: 120px;" alt="Post">
+        </a>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+          <ul class="nav navbar-nav main-navbar-nav">
+            <li class="active">
+              <a href="index.html" title="">HOME</a>
+            </li>
+            <li>
+              <a href="aboutus.html" title="">ABOUT US</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="product1.html" title="">TRANSFORMER COMPONENT</a>
+                </li>
+                <li>
+                  <a href="product2.html" title="">MINING POWER PLANT & INDUSTRAIL PLANT</a>
+                </li>
+                <li>
+                  <a href="product3.html" title="">EXPLOSION PROOF LIGHTING</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="contactus.html" title="">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+        <!-- END MAIN NAVIGATION -->
+      </div>
+    </nav>
+  </header>
+  <div class="bread_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <ol class="breadcrumb">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="product3.html">Explosion Proof Lighting</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main class="site-main page-main">
+    <div class="container">
+      <div class="row">
+        <section class="page col-sm-9">
+          <h2 class="page-title">Induction Explosionproof Light</h2>
+          <div class="entry">
+
+            <p style="text-align: justify;">
+                Use induction luminaires for general area or spot lighting in industrial locations. Mount induction luminaires directly in the conduit system or attached to cast outlet boxes, by means of pendant, ceiling, wall bracket, or stanchion mountings.
+            </p>
+            
+            <br/>
+
+            <h5 class="page-title"><b>Induction Lighting-GYD1130</b></h5>
+            <ul>
+                <li>Ex Mark: Ex d IIC T5</li>
+                <li>Degree of Protection: IP66</li>
+                <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD1130/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                        <table border="1" width="100%" class="table table-bordered">
+                            <tr>
+                              <td>Mounting Styles</td>
+                              <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                            </tr>
+                            <tr>
+                              <td>Conduit Entries</td>
+                              <td>G 3/4"</td>
+                            </tr>
+                            <tr>
+                              <td>Lamp Wattages</td>
+                              <td>150 200 W</td>
+                            </tr>
+                            <tr>
+                              <td>Voltages</td>
+                              <td>220 V 50 Hz</td>
+                            </tr>
+                            <tr>
+                              <td>Housing Material</td>
+                              <td>Die-casting aluminum with epoxy coated</td>
+                            </tr>
+                            <tr>
+                              <td>Bolts and Screws Material</td>
+                              <td>Stainless steel</td>
+                            </tr>
+                            <tr>
+                              <td>Globe Material</td>
+                              <td>Tempered glass</td>
+                            </tr>
+                            <tr>
+                              <td>Gasket Material</td>
+                              <td>Silicon rubber</td>
+                            </tr>
+                          </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                          <ul>
+                            <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation
+                            <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                            
+                            <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                            <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                            <li>Energy efficient</li>
+                            
+                            <li>No flickering</li>
+                          </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-GYD3109</b></h5>
+            <ul>
+                <li>Ex Mark: Ex d IIB T6 </li>
+                <li>Degree of Protection: IP65 </li>
+                <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD3109/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                        <table border="1" width="100%" class="table table-bordered">
+                            <tr>
+                              <td>Mounting Styles</td>
+                              <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                            </tr>
+                            <tr>
+                              <td>Conduit Entries</td>
+                              <td>G 3/4"</td>
+                            </tr>
+                            <tr>
+                              <td>Lamp Wattages</td>
+                              <td>80 120 200 W</td>
+                            </tr>
+                            <tr>
+                              <td>Voltages</td>
+                              <td>220 V 50 Hz</td>
+                            </tr>
+                            <tr>
+                              <td>Housing Material</td>
+                              <td>Die-casting aluminum with epoxy coated</td>
+                            </tr>
+                            <tr>
+                              <td>Bolts and Screws Material</td>
+                              <td>Stainless steel</td>
+                            </tr>
+                            <tr>
+                              <td>Globe Material</td>
+                              <td>Tempered glass</td>
+                            </tr>
+                            <tr>
+                              <td>Gasket Material</td>
+                              <td>Silicon rubber</td>
+                            </tr>
+                          </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation
+                          <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                          
+                          <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                          <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                          <li>Energy efficient</li>
+                          
+                          <li>No flickering</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-GYD1101</b></h5>
+            <ul>
+              <li>Ex Mark: Ex d IIB T6 </li>
+              <li>Degree of Protection: IP65 </li>
+              <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD1101/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                        <table border="1" width="100%" class="table table-bordered">
+                            <tr>
+                              <td>Mounting Styles</td>
+                              <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                            </tr>
+                            <tr>
+                              <td>Conduit Entries</td>
+                              <td>G 3/4"</td>
+                            </tr>
+                            <tr>
+                              <td>Lamp Wattages</td>
+                              <td>40 50 W</td>
+                            </tr>
+                            <tr>
+                              <td>Voltages</td>
+                              <td>220 V 50 Hz</td>
+                            </tr>
+                            <tr>
+                              <td>Housing Material</td>
+                              <td>Die-casting aluminum with epoxy coated</td>
+                            </tr>
+                            <tr>
+                              <td>Bolts and Screws Material</td>
+                              <td>Stainless steel</td>
+                            </tr>
+                            <tr>
+                              <td>Globe Material</td>
+                              <td>Heat resistant tempered glass</td>
+                            </tr>
+                            <tr>
+                              <td>Gasket Material</td>
+                              <td>Silicon rubber</td>
+                            </tr>
+                          </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation</li>
+                          <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                          
+                          <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                          <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                          <li>Energy efficient</li>
+                          
+                          <li>No flickering</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-BAD1110</b></h5>
+            <ul>
+              <li>Ex Mark: Ex d IIC T6 </li>
+              <li>Degree of Protection: IP66 </li>
+              <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-BAD1110/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                        <table border="1" width="100%" class="table table-bordered">
+                            <tr>
+                              <td>Mounting Styles</td>
+                              <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                            </tr>
+                            <tr>
+                              <td>Conduit Entries</td>
+                              <td>G 3/4"</td>
+                            </tr>
+                            <tr>
+                              <td>Lamp Wattages</td>
+                              <td>40 50 W</td>
+                            </tr>
+                            <tr>
+                              <td>Voltages</td>
+                              <td>220 V 50 Hz</td>
+                            </tr>
+                            <tr>
+                              <td>Housing Material</td>
+                              <td>Die-casting aluminum with epoxy coated</td>
+                            </tr>
+                            <tr>
+                              <td>Bolts and Screws Material</td>
+                              <td>Stainless steel</td>
+                            </tr>
+                            <tr>
+                              <td>Globe Material</td>
+                              <td>Polycarbonate</td>
+                            </tr>
+                            <tr>
+                              <td>Gasket Material</td>
+                              <td>Silicon rubber</td>
+                            </tr>
+                          </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation</li>
+                          <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                          
+                          <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                          <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                          <li>Energy efficient</li>
+                          
+                          <li>No flickering</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-GYD6107</b></h5>
+            <ul>
+              <li>Ex Mark: Ex d IIC T5 </li>
+              <li>Degree of Protection: IP66 </li>
+              <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD6107/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                        <table border="1" width="100%" class="table table-bordered">
+                            <tr>
+                              <td>Mounting Styles</td>
+                              <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                            </tr>
+                            <tr>
+                              <td>Conduit Entries</td>
+                              <td>G 3/4"</td>
+                            </tr>
+                            <tr>
+                              <td>Lamp Wattages</td>
+                              <td>40 50 W</td>
+                            </tr>
+                            <tr>
+                              <td>Voltages</td>
+                              <td>220 V 50 Hz</td>
+                            </tr>
+                            <tr>
+                              <td>Housing Material</td>
+                              <td>Die-casting aluminum with epoxy coated</td>
+                            </tr>
+                            <tr>
+                              <td>Bolts and Screws Material</td>
+                              <td>Stainless steel</td>
+                            </tr>
+                            <tr>
+                              <td>Globe Material</td>
+                              <td>Polycarbonate</td>
+                            </tr>
+                            <tr>
+                              <td>Gasket Material</td>
+                              <td>Silicon rubber</td>
+                            </tr>
+                          </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation</li>
+                          <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                          
+                          <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                          <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                          <li>Energy efficient</li>
+                          
+                          <li>No flickering</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-BAD1101</b></h5>
+            <ul>
+              <li>Ex Mark: Ex d IIB T6 </li>
+              <li>Degree of Protection: IP65 </li>
+              <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-BAD1101/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                        <table border="1" width="100%" class="table table-bordered">
+                            <tr>
+                              <td>Mounting Styles</td>
+                              <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                            </tr>
+                            <tr>
+                              <td>Conduit Entries</td>
+                              <td>G 3/4"</td>
+                            </tr>
+                            <tr>
+                              <td>Lamp Wattages</td>
+                              <td>40 50 W</td>
+                            </tr>
+                            <tr>
+                              <td>Voltages</td>
+                              <td>220 V 50 Hz</td>
+                            </tr>
+                            <tr>
+                              <td>Housing Material</td>
+                              <td>Die-casting aluminum with epoxy coated</td>
+                            </tr>
+                            <tr>
+                              <td>Bolts and Screws Material</td>
+                              <td>Stainless steel</td>
+                            </tr>
+                            <tr>
+                              <td>Globe Material</td>
+                              <td>Heat resistant tempered glass</td>
+                            </tr>
+                            <tr>
+                              <td>Gasket Material</td>
+                              <td>Silicon rubber</td>
+                            </tr>
+                          </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation</li>
+                          <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                          
+                          <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                          <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                          <li>Energy efficient</li>
+                          
+                          <li>No flickering</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-GYD6102</b></h5>
+            <ul>
+              <li>Ex Mark: Ex d IIB T6 </li>
+              <li>Degree of Protection: IP65 </li>
+              <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD6102/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                        <table border="1" width="100%" class="table table-bordered">
+                            <tr>
+                              <td>Mounting Styles</td>
+                              <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                            </tr>
+                            <tr>
+                              <td>Conduit Entries</td>
+                              <td>G 3/4"</td>
+                            </tr>
+                            <tr>
+                              <td>Lamp Wattages</td>
+                              <td>40 50 W</td>
+                            </tr>
+                            <tr>
+                              <td>Voltages</td>
+                              <td>220 V 50 Hz</td>
+                            </tr>
+                            <tr>
+                              <td>Housing Material</td>
+                              <td>Die-casting aluminum with epoxy coated</td>
+                            </tr>
+                            <tr>
+                              <td>Bolts and Screws Material</td>
+                              <td>Stainless steel</td>
+                            </tr>
+                            <tr>
+                              <td>Globe Material</td>
+                              <td>Polycarbonate</td>
+                            </tr>
+                            <tr>
+                              <td>Gasket Material</td>
+                              <td>Silicon rubber</td>
+                            </tr>
+                          </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation</li>
+                          <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                          
+                          <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                          <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                          <li>Energy efficient</li>
+                          
+                          <li>No flickering</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-GYD6107</b></h5>
+            <ul>
+              <li>Ex Mark: Ex d IIB T6 </li>
+              <li>Degree of Protection: IP65 </li>
+              <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD6107_2/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                        <table border="1" width="100%" class="table table-bordered">
+                            <tr>
+                              <td>Mounting Styles</td>
+                              <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                            </tr>
+                            <tr>
+                              <td>Conduit Entries</td>
+                              <td>G 3/4"</td>
+                            </tr>
+                            <tr>
+                              <td>Lamp Wattages</td>
+                              <td>40 50 W</td>
+                            </tr>
+                            <tr>
+                              <td>Voltages</td>
+                              <td>220 V 50 Hz</td>
+                            </tr>
+                            <tr>
+                              <td>Housing Material</td>
+                              <td>Die-casting aluminum with epoxy coated</td>
+                            </tr>
+                            <tr>
+                              <td>Bolts and Screws Material</td>
+                              <td>Stainless steel</td>
+                            </tr>
+                            <tr>
+                              <td>Globe Material</td>
+                              <td>Polycarbonate</td>
+                            </tr>
+                            <tr>
+                              <td>Gasket Material</td>
+                              <td>Silicon rubber</td>
+                            </tr>
+                          </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation</li>
+                          <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                          
+                          <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                          <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                          <li>Energy efficient</li>
+                          
+                          <li>No flickering</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-GYD1102</b></h5>
+            <ul>
+              <li>Ex Mark: Ex d IIC T4 </li>
+              <li>Degree of Protection: IP66 </li>
+              <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD1102/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD1102/2.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)"> 
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                        <table border="1" width="100%" class="table table-bordered">
+                            <tr>
+                              <td>Mounting Styles</td>
+                              <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                            </tr>
+                            <tr>
+                              <td>Conduit Entries</td>
+                              <td>G 3/4"</td>
+                            </tr>
+                            <tr>
+                              <td>Lamp Wattages</td>
+                              <td>40 50 W</td>
+                            </tr>
+                            <tr>
+                              <td>Voltages</td>
+                              <td>220 V 50 Hz</td>
+                            </tr>
+                            <tr>
+                              <td>Housing Material</td>
+                              <td>Die-casting aluminum with epoxy coated</td>
+                            </tr>
+                            <tr>
+                              <td>Bolts and Screws Material</td>
+                              <td>Stainless steel</td>
+                            </tr>
+                            <tr>
+                              <td>Globe Material</td>
+                              <td>Polycarbonate</td>
+                            </tr>
+                            <tr>
+                              <td>Gasket Material</td>
+                              <td>Silicon rubber</td>
+                            </tr>
+                          </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation</li>
+                          <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                          
+                          <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                          <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                          <li>Energy efficient</li>
+                          
+                          <li>No flickering</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-GYD8182</b></h5>
+            <ul>
+              <li>Ex Mark: Ex d IIC T6 </li>
+              <li>Degree of Protection: IP65 </li>
+              <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD8182/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                            
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                        <table border="1" width="100%" class="table table-bordered">
+                            <tr>
+                              <td>Mounting Styles</td>
+                              <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                            </tr>
+                            <tr>
+                              <td>Wattages</td>
+                              <td>Induction: 80</td>
+                            </tr>
+                            <tr>
+                              <td>Voltages</td>
+                              <td>220 V 50 Hz</td>
+                            </tr>
+                            <tr>
+                              <td>Housing Material</td>
+                              <td>Die-casting aluminum with epoxy coated</td>
+                            </tr>
+                            <tr>
+                              <td>Bolts and Screws Material</td>
+                              <td>Stainless steel</td>
+                            </tr>
+                            <tr>
+                              <td>Globe Material</td>
+                              <td>Polycarbonate</td>
+                            </tr>
+                            <tr>
+                              <td>Gasket Material</td>
+                              <td>Silicon rubber</td>
+                            </tr>
+                          </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Epoxy powder finish and stainless steel external hardware for resistance to corrosion</li>
+
+                          <li>Acid, hydrocarbon and high temperature resistant silicon</li>
+                          
+                          <li>Multi-mounting arrangements to suit any lighting layout</li>
+                          <li>Less glare</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-GYD6110</b></h5>
+            <ul>
+              <li>Ex Mark: Ex d IIC T5 </li>
+              <li>Degree of Protection: IP67 </li>
+              <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD6110/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                            
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="1" width="100%" class="table table-bordered">
+                          <tr>
+                            <td>Mounting Styles</td>
+                            <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                          </tr>
+                          <tr>
+                            <td>Conduit Entries</td>
+                            <td>G 3/4"</td>
+                          </tr>
+                          <tr>
+                            <td>Lamp Wattages</td>
+                            <td>100 150 200 300 W</td>
+                          </tr>
+                          <tr>
+                            <td>Voltages</td>
+                            <td>220 V 50 Hz</td>
+                          </tr>
+                          <tr>
+                            <td>Housing Material</td>
+                            <td>Die-casting aluminum with epoxy coated</td>
+                          </tr>
+                          <tr>
+                            <td>Bolts and Screws Material</td>
+                            <td>Stainless steel</td>
+                          </tr>
+                          <tr>
+                            <td>Gasket Material</td>
+                            <td>Silicon rubber</td>
+                          </tr>
+                        </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation</li>
+                          <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                          
+                          <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                          <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                          <li>Energy efficient</li>
+                          
+                          <li>No flickering</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+            <h5 class="page-title"><b>Induction Lighting-GYD6112</b></h5>
+            <ul>
+              <li>Ex Mark: Ex d IIC T5 </li>
+              <li>Degree of Protection: IP67 </li>
+              <li>Corrosion Resistant Degree: WF2</li>
+            </ul>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <table>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="0" width="100%">
+                        <tr>
+                          <td width="20%">
+                            <img src="img/prod3/LED_Explosionproof_Light/4_Induction_Explosionproof_Light/Lighting-GYD6112/1.jpg" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+                          </td>
+                          <td width="20%">
+                            
+                          </td>
+                          <td width="20%">
+                              
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Details</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <table border="1" width="100%" class="table table-bordered">
+                          <tr>
+                            <td>Mounting Styles</td>
+                            <td>Pendant Mount; Ceiling Mount; Wall Mount;Stanchion Mount</td>
+                          </tr>
+                          <tr>
+                            <td>Conduit Entries</td>
+                            <td>G 3/4"</td>
+                          </tr>
+                          <tr>
+                            <td>Lamp Wattages</td>
+                            <td>65 85 W</td>
+                          </tr>
+                          <tr>
+                            <td>Voltages</td>
+                            <td>220 V 50 Hz</td>
+                          </tr>
+                          <tr>
+                            <td>Housing Material</td>
+                            <td>Die-casting aluminum with epoxy coated</td>
+                          </tr>
+                          <tr>
+                            <td>Bolts and Screws Material</td>
+                            <td>Stainless steel</td>
+                          </tr>
+                          <tr>
+                            <td>Gasket Material</td>
+                            <td>Silicon rubber</td>
+                          </tr>
+                        </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Product Certificate</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>FEATURES</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                      <p style="text-align: justify;">
+                        <ul>
+                          <li>Arrangement of heat-producing components results in more efficient heat dissipation for cooler fixture operation</li>
+                          <li>All exterior hardware is corrosion-resistant stainless steel</li>
+                          
+                          <li>Superior gasketing seals between the mounting module, housing, and optical assembly for optimum performance in wet and corrosive environments</li>
+                          <li>Multi-mounting arrangements to suit any lighting layout – pendant, ceiling, wall bracket and stanchion</li>
+                          <li>Energy efficient</li>
+                          
+                          <li>No flickering</li>
+                        </ul>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2"><b>Recommended Products</b></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="2">
+                    <p style="text-align: justify;">
+                        
+                    </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12" style="text-align: right;">
+                <h5 class="page-title"><u><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i>Top</a></u></h5>
+              </div>
+            </div>
+
+            <hr/>
+
+
+            
+
+            
+
+          </div>
+        </section>
+
+        <aside class="sidebar col-sm-3" >
+          <div class="widget">
+            <h4>CONTENT</h4>
+            <ul>
+              <li>
+                <a href="product3.html" title="" style="background-color: darkgray;">Explosion Proof Lighting</a>
+              </li>
+              <li>
+                <a href="product3-1_1.html" title="">&nbsp;-&nbsp;LED Explosionproof Light</a>
+              </li>
+              <li>
+                <a href="product3-1_2.html" title="">&nbsp;-&nbsp;H.I.D. Explosionproof Light</a>
+              </li>
+              <li>
+                <a href="product3-1_3.html" title="">&nbsp;-&nbsp;Fluorescent Linear Ex Light</a>
+              </li>
+              <li class="current">
+                <a href="product3-1_4.html" title="">&nbsp;-&nbsp;Induction Explosionproof Light</a>
+              </li>
+              <li>
+                <a href="product3-1_5.html" title="">&nbsp;-&nbsp;Ex Emergency & Exit Signs</a>
+              </li>
+              <li>
+                <a href="product3-1_6.html" title="">&nbsp;-&nbsp;Portable Ex Lamp</a>
+              </li>
+              <li>
+                <a href="product3-1_7.html" title="">&nbsp;-&nbsp;Ex Light Tower & Work Light</a>
+              </li>
+              <li>
+                <a href="product3-2.html" title="" style="background-color: darkgray;">Explosion Proof Equipment</a>
+              </li>
+              <li>
+                <a href="product3-2_1.html" title="">&nbsp;-&nbsp;Electrical Appliance</a>
+              </li>
+              <li>
+                <a href="product3-2_2.html" title="">&nbsp;-&nbsp;Fan</a>
+              </li>
+              <li>
+                <a href="product3-2_3.html" title="">&nbsp;-&nbsp;Electrical Equipment</a>
+              </li>
+              <li>
+                <a href="product3-2_4.html" title="">&nbsp;-&nbsp;Swithes</a>
+              </li>
+              <li>
+                <a href="product3-2_5.html" title="">&nbsp;-&nbsp;Plugs & Receptacles</a>
+              </li>
+              <li>
+                <a href="product3-2_6.html" title="">&nbsp;-&nbsp;Operation Post</a>
+              </li>
+              <li>
+                <a href="product3-2_7.html" title="">&nbsp;-&nbsp;Button</a>
+              </li>
+              <li>
+                <a href="product3-2_8.html" title="">&nbsp;-&nbsp;Junction Box</a>
+              </li>
+              <li>
+                <a href="product3-2_9.html" title="">&nbsp;-&nbsp;Flexible Conduits</a>
+              </li>
+              <li>
+                <a href="product3-2_10.html" title="">&nbsp;-&nbsp;Cable Gland</a>
+              </li>
+              <li class="current">
+                <a href="product3-3.html" title="" style="background-color: darkgray;">Industrial Lighting</a>
+              </li>
+              <li>
+                <a href="product3.html" title="">&nbsp;-&nbsp;Weather-proof Lights</a>
+              </li>
+              <li>
+                <a href="product3.html" title="">&nbsp;-&nbsp;High/Low Bay Light</a>
+              </li>
+              <li>
+                <a href="product3.html" title="">&nbsp;-&nbsp;Flood/Spot Light</a>
+              </li>
+              <li>
+                <a href="product3.html" title="">&nbsp;-&nbsp;Street Lights</a>
+              </li>
+              <li>
+                <a href="product3.html" title="">&nbsp;-&nbsp;Solar Energy Street Light</a>
+              </li>
+              <li>
+                <a href="product3.html" title="">&nbsp;-&nbsp;High/Medium Pole Lamp</a>
+              </li>
+              <li>
+                <a href="product3.html" title="">&nbsp;-&nbsp;Underground Lights</a>
+              </li>
+              <li class="current">
+                <a href="product3.html" title="" style="background-color: darkgray;">LED Bulb&Tube&Strip</a>
+              </li>
+              <li>
+                <a href="product3.html" title="">&nbsp;-&nbsp;Led Strip</a>
+              </li>
+              <li>
+                <a href="product3.html" title="">&nbsp;-&nbsp;Led Tube</a>
+              </li>
+              <li>
+                <a href="product3.html" title="">&nbsp;-&nbsp;Led Bulb</a>
+              </li>
+              <!-- <li>
+                <a href="product2-3.html" title="">Don´t Mix CEJN with copies!</a>
+              </li>
+              <li>
+                <a href="product2-4.html" title="">Check for Wear & Damage!</a>
+              </li>
+              <li>
+                <a href="product2-5.html" title="">Regular Inspection & Maintenance</a>
+              </li>
+              <li>
+                <a href="product2-6.html" title="">How to Connect Safely</a>
+              </li>
+              <li>
+                <a href="product2-7.html" title="">Identify CEJN for your Safety</a>
+              </li>
+              <li>
+                <a href="product2-8.html" title="">CEJN High-Pressure Centers</a>
+              </li>
+              <li>
+                <a href="product2-9.html" title="">ADALET PLM INDUSTRIAL CABLE COUPLERS</a>
+              </li> -->
+            </ul>
+          </div>
+          <!-- <div class="row">
+            <div class="col-sm-12">
+              <img src="img/prod2/CEJN.gif" class="img-responsive" style="width:100%" alt="Image" id="myImg" onclick="callModal(this)">
+            </div>
+          </div> -->
+        </aside>
+
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      
+    </div>
+    <div id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <p class="pull-left">&copy; Copyright © 2017 KMI Engineering (Thailand) co.,ltd. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-8">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- The Close Button -->
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    function callModal(arg) {
+
+      // Get the modal
+      var modal = document.getElementById('myModal');
+
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+
+      modal.style.display = "block";
+
+      //replace thumb_ by "" of file img path
+      var str = arg.src;
+      var res = str.replace("thumb_", "");
+      modalImg.src = res;
+      //captionText.innerHTML = arg.alt;
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
